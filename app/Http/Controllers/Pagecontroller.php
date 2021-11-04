@@ -20,4 +20,10 @@ class Pagecontroller extends Controller
     {
         return view('serviceParam')->with('myId', $id);
     }
+
+    public function users(){
+        $response = http::get('https://reqres.in/api/users?page=1 ');
+        return view('users', ['response'=> $response['data']]);
+    }
+
 }

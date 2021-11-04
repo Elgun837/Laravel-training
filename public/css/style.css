@@ -7,3 +7,6 @@ header{
 .navbar-expand-lg .navbar-collapse{
     justify-content: center;
 }
+main{
+    margin: 10px;
+}
