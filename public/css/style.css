@@ -18,3 +18,30 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.placeholder{
+    display:inline-block;
+    width:800px;
+    height:550px;
+    box-sizing:border-box;
+    margin-top:40px;
+    position:relative;
+    background-color:white;
+  }
+  
+  .column, .blind, .blindImg{
+    position:absolute;
+    top:0;
+    height:100%;
+    box-sizing:border-box;
+  }
+  
+  .blind{
+    overflow:hidden;
+  }
+  
+  .blindImg{
+    width:100%;
+    background-size:cover;
+  }
+  
