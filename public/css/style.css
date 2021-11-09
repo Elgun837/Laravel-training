@@ -8,5 +8,9 @@ header{
     justify-content: center;
 }
 main{
-    margin: 10px;
+    height: 80vh;
+    background: url(https://wallpaperaccess.com/full/941788.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

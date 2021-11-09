@@ -25,5 +25,8 @@ class Pagecontroller extends Controller
         $response = http::get('https://reqres.in/api/users?page=1 ');
         return view('users', ['response'=> $response['data']]);
     }
+    public function error(){
+        return view('404');
+    }
 
 }

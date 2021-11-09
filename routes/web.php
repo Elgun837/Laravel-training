@@ -20,3 +20,4 @@ Route::get('/contact', [Pagecontroller::class, 'contact'])->name('contact');
 Route::get('/service', [PageController::class, 'service'])->name('service');
 Route::get('/service/{id}', [PageController::class, 'serviceParam'])->name('serviceParam');
 Route::get('/users', [Pagecontroller::class, 'users'])->name('users');
+Route::get('404', [Pagecontroller::class, 'error'])->name('404');
