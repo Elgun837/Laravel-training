@@ -3,7 +3,7 @@
         <div class="container-fluid">
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <img class="logo-image" src="https://laravel.com/img/logotype.min.svg">
+                <a href="/"><img class="logo-image" src="https://laravel.com/img/logotype.min.svg"></a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
