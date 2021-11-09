@@ -15,7 +15,7 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/home', [Pagecontroller::class, 'home'])->name('home');
+Route::get('/', [Pagecontroller::class, 'home'])->name('home');
 Route::get('/contact', [Pagecontroller::class, 'contact'])->name('contact');
 Route::get('/service', [PageController::class, 'service'])->name('service');
 Route::get('/service/{id}', [PageController::class, 'serviceParam'])->name('serviceParam');
